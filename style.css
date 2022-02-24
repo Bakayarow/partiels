@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html{
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+nav{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: fixed;
+}
+
+#leftcont{
+    width: 20%;
+    height: 80px;
+}
+
+#leftcont img{
+    width: 20%;
+    padding: 20px;
+}
+
+#rightcont{
+    width: 30%;
+    height: 80px;
+}
+
+#rightcont img{
+    width: 10%;
+    padding: 20px;
+}
+ #rightcont img:nth-child(2){
+     width: 40%;
+ }
+
+header{
+    width: 100%;
+    height: 300px;
+    
+}
+
+#bann{
+    background-image: url(img/423685.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img{
+    width: 20%;
+}
+
+#rows{
+    width: 100%;
+    height: 550px;
+    background: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#box{
+    width: 333px;
+    height: 273px;
+    background: black;
+}
+
+span{
+    font-size: 50px;
+}
+
+.top{
+    width: 70%;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#mid{
+    align-items: center;
+    width: 70%;
+    padding: 60px;
+}
+
+#mid p{
+    padding-bottom: 15px;
+    color: aquamarine;
+}
